@@ -1,0 +1,87 @@
+/* Main Body */
+body {
+  background-color: #00ccff;
+}
+
+/* Generic header settings */
+header {
+  padding: 25px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+/* Generic table settings */
+table {
+  border:1px solid black;
+  border-collapse:collapse;
+}
+
+/* Generic footer settings */
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Specific classes */
+.projectIdeaTable1 th {
+  background-color:#000;
+  color:white;width:50%;
+  text-align: left;
+}
+
+.projectIdeaTable1 td, .projectIdeaTable1 th {
+  padding:5px;
+  border:1px solid #000;
+}
+
+.projectIdeaTable2 th {
+  background-color:#000;
+  color:white;width:20%;
+  text-align: left;
+}
+
+.projectIdeaTable2 td, .projectIdeaTable2 th {
+  padding:5px;
+  border:1px solid #000;
+}
+
+.headings {
+  padding: 5px;
+  text-align: center;
+  color: black;
+}
+
+.subHeadings {
+  padding: 1px;
+  text-align: left;
+}
+
+.personalInfoTable {
+  margin-left: auto;
+  margin-right: auto;
+}
+.personalInfoTable td, .personalInfoTable th {
+  background-color: #00ccff ;
+  padding:8px;
+  border: 1px solid black;
+
+}
+
+.paragraph {
+  text-align:center;
+  font-size: 16px;
+  width: 100%;
+}
+
+.navigationBar {
+  text-align:center;
+  font-size: 20px;
+}
+
+.horizontalBar {
+  color: black;
+  background-color: black;
+
+}
