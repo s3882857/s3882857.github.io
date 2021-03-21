@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>John Hurst WebPage</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body style="color-background:white;">
+
+    <header id="top" style="color:blue;">
+      <h3>Project Idea</h3>
+    </header>
+
+    <nav class="navigationBar">
+      <a href="index.html">Main</a> |
+      <a href="#ProjectIdea">Project Idea</a> |
+      <a href="#Motivation">Motivation</a> |
+      <a href="#DetailedDescription">Detailed Description</a> |
+      <a href="#ToolsTechnologies">Tools and Technologies</a> |
+      <a href="#Outcome">Outcome</a> |
+      <a href="#bottom">End</a>
+    </nav>
+
+    <nav class="navigationBar">
+      <a href="#Table1MuscleCodes">Table 1</a> |
+      <a href="#Table2MuscleCodesAllocated">Table 2</a> |
+      <a href="#Table3ExercisesPerformed">Table 3</a> |
+      <a href="#Table4WeightAllocated">Table 4</a> |
+      <a href="#Table5TotalWeightLifted">Table 5</a> |
+      <a href="#Table6RatiosVariances">Table 6</a>
+    </nav>
+
+        <section id="ProjectIdea">
+            <h3 class="headings">Studio Gym</h3>
+            <h4 class="headings">Overview</h4>
+
+            <div>
+              <p>A mobile phone application together with a web page to create and store statistical information concerning a persons workout routine. Currently there are many professional looking applications out there that already cater to this market.</p>
+              <p>However, none provide much information on understanding how much a given workout is actually providing. Much of the focus is on giving the user preset workouts, lots of fancy videos on how to perform the said exercises. Little emphasis is placed on the interpretation of the data collected. There are many heart monitors and distance tracking tools, but none provide much beyond basic, time taken, sets, reps, distance travelled etc.</p>
+              <p>Therefore, this would be a Personal training application to store client workout information and provide a more comprehensive analyse of the data produced. The analysis will provide an understanding of the muscle groups the client is focusing on and to what extend they are being worked. Comparisons in the form of ratios will be produced to ascertain the level to which each muscle and the opposing muscle are being worked. This would be used to produce a ratio and from this a variance or difference.</p>
+              <p>Personal trainers and or Physiotherapist could then use this data to ascertain the acceptable balance levels between muscles.</p>
+            </div>
+        </section>
+
+        <hr color="black">
+
+        <section id="Motivation">
+            <h4 class="headings">Motivation</h4>
+            <div>
+              <p>When I first started working out in a gym one of the single things that I wanted was an enormous chest and shoulders. Hence, like many prospective, male, gym enthusiasts, I would focus mainly on exercises, such as, Bench Press, Shoulder Press, and the occasional Bicep Curl or Beach Curl. This would usually result in very little exercise being performed on anything else.</p>
+              <p>The negative aspects of this type of training would lead to injury. The under worked muscles, would become proportionately weaker, creating the  classic 'Hunchback look'. In extreme cases these imbalances can lead to serious tendon, ligament, and muscle damage.</p>
+              <p>So, how do we determine when this is occurring and to what extent? And, more importantly how can it be avoided? Usually, a good Personal Trainer, or a Physiotherapist would be able to recognise the signs and direct the person appropriately.</p>
+              <p>However, for most of us, this still does not register. Being able to produce quantifiable data and produce a graphical representation of a persons workout to highlight any imbalances between muscle groups would address this issue better.</p>
+              <p><a href="https://coach.nine.com.au/fitness/the-dark-side-of-pecs/963da893-d085-4ba6-a3d5-603be20c3e6d"></a></p>
+            </div>
+        </section>
+
+        <hr color="black">
+
+        <section id="DetailedDescription">
+            <h4 class="headings">Detailed Description</h4>
+
+            <div>
+              <p>If I perform a Bicep Curl exercise using a Dumbbell weighing 30Kg. It is said, that I have performed, one repetition, or 30Kg's of work on my bicep muscle. Taking this further, and repeating it ten times, would result in 10 Repetitions at 30Kg's. Thus, having performed 300Kg's of work (10 Reps * 30Kgs).  If I then perform the opposing exercise, a Tricep Extension, and performed the same number of repetitions at the same weight as the Bicep Curl. I have then, also performed 300Kg's of work, but on my triceps.</p>
+              <p>The bicep has performed 300Kgs of work and the Tricep has also performed 300Kgs of work, a ratio can be drawn of 300/300 between the two opposing muscles. </p>
+              <p>Many such opposing muscle groups exist in the human body and all can be analysed in this way, creating many ratios, to produce an overall understanding of how well balanced a given workout is progressing. </p>
+              <p>In order to do this an understanding of the muscles involved in each exercise is required. This will require a setup process to create muscle names. The level of detail here can be varied.
+See table 1. Muscle Codes.</p>
+            </div>
+        </section>
+
+        <section id="Table1MuscleCodes">
+            <h5 class="subHeadings">Table 1: Muscle Codes</h5>
+
+            <table class="projectIdeaTable1">
+              <tr>
+                <th>Muscle Code</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td>PECTS</td>
+                <td>Pectoral or chest in general.</td>
+              </tr>
+              <tr>
+                <td>UPECTS</td>
+                <td>Upper Pectoral or upper part of chest. </td>
+              </tr>
+              <tr>
+                <td>MPECTS</td>
+                <td>Middle Pectoral or middle part of chest.</td>
+              </tr>
+              <tr>
+                <td>LPECTS</td>
+                <td>Lower Pectoral or lower part of chest muscle.</td>
+              </tr>
+              <tr>
+                <td>DELTS</td>
+                <td>Shoulders in general.</td>
+              </tr>
+              <tr>
+                <td>ANTDELTOID</td>
+                <td>Anterior deltoid or front part of shoulder muscle.</td>
+              </tr>
+              <tr>
+                <td>LATDELTOID</td>
+                <td>Lateral deltoid or middle part of shoulder muscle.</td>
+              </tr>
+              <tr>
+                <td>POSTDELTOID</td>
+                <td>Posterior deltoid or rear part of shoulder muscle.</td>
+              </tr>
+              <tr>
+                <td>UBACK</td>
+                <td>Upper back in general.</td>
+              </tr>
+              <tr>
+                <td>LATSBACK</td>
+                <td>Latissimus Dorsi or middle back muscle.</td>
+              </tr>
+              <tr>
+                <td>MIDBACK</td>
+                <td>Rhomboids or between shoulder blades.</td>
+              </tr>
+              <tr>
+                <td>TRAPS</td>
+                <td>Neck, Shoulders, and upper back.</td>
+              </tr>
+              <tr>
+                <td>BICEPS</td>
+                <td>Biceps or front upper arm.</td>
+              </tr>
+              <tr>
+                <td>TRICEPS</td>
+                <td>Triceps or rear upper arm </td>
+              </tr>
+            </table>
+        </section>
+
+
+            <div>
+              <p>Next, another setup process to assign the Muscle Codes in table 1 to an Exercise Code. See Table 2.</p>
+            </div>
+
+        <section id="Table2MuscleCodesAllocated">
+
+            <h5 class="subHeadings">Table 2 : Muscle Codes Allocated to Exercise Codes.</h5>
+
+            <table class="projectIdeaTable2">
+              <tr>
+                <th>Exercise Code</th>
+                <th>Description</th>
+                <th>Muscle Code</th>
+                <th>Percentage (%)</th>
+              </tr>
+              <tr>
+                <td>BP</td>
+                <td>Bench Press (Flat)</td>
+                <td>UPECTS</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>MPECTS</td>
+                <td>40</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>LPECTS</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>ANTDELTOIDS</td>
+                <td>20</td>
+              </tr>
+              <tr>
+            <td></td>
+              <td></td>
+              <td>TRICEPS</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>SR</td>
+              <td>Seated Row (Flat)</td>
+              <td>LATSBACK</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>MIDBACK</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>TRAPS</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>BICEPS</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>SP</td>
+              <td>Shoulder Press</td>
+              <td>ANTDELTOID</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>LATDELTOID</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>POSTDELTOID</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>TRICEPS</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>BPI</td>
+              <td>Bench Press Incline</td>
+              <td>UPECTS</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>MPECTS</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>LPECTS</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>ANTDELTOIDS</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>TRICEPS</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td>BPD</td>
+              <td>Bench Press Decline</td>
+              <td>UPECTS</td>
+              <td>10</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>MPECTS</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>LPECTS</td>
+              <td>30</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>ANTDELTOIDS</td>
+              <td>20</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>TRICEPS</td>
+              <td>20</td>
+            </tr>
+          </table>
+
+          <div>
+            <p>The percentages will then be used to allocate a percentage of the weight lifted to a muscle. This will give an understanding of the total weight a given muscle has lifted in total. </p>
+            <p>Therefore, if we take the information in table 3 and allocate weight levels according to the percentages in table 2 to produce the results in table 4. We can then sum the total weight lifted by each muscle. See Table 5</p>
+          </div>
+        </section>
+
+        <section id="Table3ExercisesPerformed">
+
+          <h5 class="subHeadings">Table 3 : Exercises performed.</h5>
+
+          <table class="projectIdeaTable2">
+            <tr>
+              <th>Exercise Code</th>
+              <th>Weight(Kgs)</th>
+              <th>Repetitions</th>
+              <th>Sets</th>
+              <th>Total Weight</th>
+            </tr>
+            <tr>
+              <td>BP</td>
+              <td>60</td>
+              <td>10</td>
+              <td>4</td>
+              <td>2400</td>
+            </tr>
+            <tr>
+              <td>SP</td>
+              <td>40</td>
+              <td>10</td>
+              <td>4</td>
+              <td>1600</td>
+            </tr>
+            <tr>
+              <td>SR</td>
+              <td>40</td>
+              <td>10</td>
+              <td>4</td>
+              <td>1600</td>
+            </tr>
+            <tr>
+              <td>BPI</td>
+              <td>50</td>
+              <td>10</td>
+              <td>4</td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td>BPD</td>
+              <td>45</td>
+              <td>10</td>
+              <td>4</td>
+              <td>1800</td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="Table4WeightAllocated">
+
+          <h5 class="subHeadings">Table 4 : Weight Allocated.</h5>
+
+          <table class="projectIdeaTable2">
+            <tr>
+              <th>Exercise Code</th>
+              <th>Muscle Code</th>
+              <th>Weight</th>
+            </tr>
+            <tr>
+              <td>BP</td>
+              <td>UPECTS</td>
+              <td>240</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>MPECKS</td>
+              <td>960</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>LPECKS</td>
+              <td>240</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>ANTDELTOIDS</td>
+              <td>480</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>TRICEPS</td>
+              <td>480</td>
+            </tr>
+            <tr>
+              <td colspan="2"><b>Total Weight</b></td>
+              <td>2400</td>
+            </tr>
+            <tr>
+              <td>SR</td>
+              <td>LATSBACK</td>
+              <td>480</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>MIDBACK</td>
+              <td>480</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>TRAPS</td>
+              <td>320</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>BICEPS</td>
+              <td>320</td>
+            </tr>
+            <tr>
+              <td colspan="2"><b>Total Weight</b></td>
+              <td>1600</td>
+            </tr>
+            <tr>
+              <td>SP</td>
+              <td>ANTDELTOID</td>
+              <td>400</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>LATDELTOID</td>
+              <td>480</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>POSTDELTOID</td>
+              <td>400</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>TRICEPS</td>
+              <td>320</td>
+            </tr>
+            <tr>
+              <td colspan="2"><b>Total Weight</b></td>
+              <td>1600</td>
+            </tr>
+            <tr>
+              <td>BPI</td>
+              <td>UPECTS</td>
+              <td>600</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>MPECTS</td>
+              <td>400</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>LPECTS</td>
+              <td>200</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>ANTDELTOIDS</td>
+              <td>400</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>TRICEPS</td>
+              <td>400</td>
+            </tr>
+            <tr>
+              <td colspan="2"><b>Total Weight</b></td>
+              <td>2000</td>
+            </tr>
+            <tr>
+              <td>BPD</td>
+              <td>UPECTS</td>
+              <td>180</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>MPECTS</td>
+              <td>360</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>LPECTS</td>
+              <td>540</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>ANTDELTOIDS</td>
+              <td>360</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>TRICEPS</td>
+              <td>360</td>
+            </tr>
+            <tr>
+              <td><b>Total Weight</b></td>
+              <td></td>
+              <td>1800</td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="Table5TotalWeightLifted">
+
+          <h5 class="subHeadings">Table 5. Total weight lifted per muscle.</h5>
+
+          <table class="projectIdeaTable2">
+            <tr>
+              <th>Muscle Code</th>
+              <th>Total Weight</th>
+              <th>Percentage of Total Weight</th>
+            </tr>
+            <tr>
+              <td>UPECTS</td>
+              <td>1020</td>
+              <td>10.85</td>
+            </tr>
+            <tr>
+              <td>MPECKS</td>
+              <td>1720</td>
+              <td>18.3</td>
+            </tr>
+            <tr>
+              <td>LPECKS</td>
+              <td>980</td>
+              <td>10.42</td>
+            </tr>
+            <tr>
+              <td>TRICEPS</td>
+              <td>1560</td>
+              <td>16.6</td>
+            </tr>
+            <tr>
+              <td>LATSBACK</td>
+              <td>480</td>
+              <td>5.1</td>
+            </tr>
+            <tr>
+              <td>MIDBACK</td>
+              <td>480</td>
+              <td>5.1</td>
+            </tr>
+            <tr>
+              <td>TRAPS</td>
+              <td>320</td>
+              <td>3.4</td>
+            </tr>
+            <tr>
+              <td>BICEPS</td>
+              <td>320</td>
+              <td>3.4</td>
+            </tr>
+            <tr>
+              <td>ANTDELTOIDS</td>
+              <td>1640</td>
+              <td>17.44</td>
+            </tr>
+            <tr>
+              <td>LATDELTOID</td>
+              <td>480</td>
+              <td>5.1</td>
+            </tr>
+            <tr>
+              <td>POSTDELTOID</td>
+              <td>400</td>
+              <td>4.25</td>
+            </tr>
+            <tr>
+              <td>Total Weight</td>
+              <td>9400</td>
+              <td>100</td>
+            </tr>
+          </table>
+
+          <div>
+            <p>From here a percentage of the work done for each exercise can be calculated as a percentage of the total work done.</p>
+            <p>The main objective can then be achieved by creating a setup to match a muscle to its opposing muscle. A ratio can be produced as well as a variance based on this ratio. As can be seen the Variance between biceps and triceps is quite large indicating the person has been focusing on triceps more than their biceps. The variance between Middle Pectoral muscles and the Latissimus Dorsi is also large. Indicating the chest muscles have been over worked in relation to the back muscles.</p>
+          </div>
+        </section>
+
+        <section id="Table6RatiosVariances">
+
+          <h5 class="subHeadings">Table 6. Ratios and Variances</h5>
+          <table class="projectIdeaTable2">
+            <tr>
+              <th>Muscle Code</th>
+              <th>Weight</th>
+              <th>Opposing Muscle Code</th>
+              <th>Weight</th>
+              <th>Ratio</th>
+              <th>Variance</th>
+            </tr>
+            <tr>
+              <td>MPECTS</td>
+              <td>1720</td>
+              <td>LATSBACK</td>
+              <td>480</td>
+              <td>1.28:4.58</td>
+              <td>3.3</td>
+            </tr>
+            <tr>
+              <td>TRICEPS</td>
+              <td>1560</td>
+              <td>BICEPS</td>
+              <td>320</td>
+              <td>1.21:5.875</td>
+              <td>4.66</td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="ToolsTechnologies">
+
+          <hr color="black">
+
+          <h4 class="headings">Tools and Technologies</h4>
+
+          <div>
+
+            <p>There are a number of programming languages that could be used to create a mobile application for this project as well as a web page.</p>
+
+            <ul>
+              <li>Python</li>
+              <li>Swift</li>
+              <li>JavaScript</li>
+              <li>Rust</li>
+              <li>Scala</li>
+              <li>Ruby</li>
+              <li>GoLang/Go</li>
+              <li>Java</li>
+            </ul>
+
+            <p>My skills are limited in these at the moment. However, I do have a degree of understanding in general programming. It's a matter of building up from here. At the moment obtaining the skills myself will take some time. The length of my Degree if required. Exact details would only be approximations. However, there are plenty of people with skills in all of these languages. I wish to do this myself as a learning experience, more so than an actual commercial application.</p>
+            <p>I would suggest the use of GitHub, Notepad++, atom.io, eclipse or visual studio as the development tools. No hardware requirements. Other than the web page hosting service, which GitHub is.</p>
+
+          </div>
+        </section>
+
+
+          <hr color="black">
+
+        <section id="Outcome">
+
+          <h4 class="headings">Outcome</h4>
+
+          <div>
+            <p>I do not expect to replace the current exercise programs out in the market place. However, this should be viewed as a step towards a singularly, more complex, method of analysing workout data than what is currently available.</p>
+            <p>Bearing this in mind, the people most likely to begin uptake of such a product would need to be Personal Trainers with a reasonable understanding of the technicalities and complexities involved. It would require a person whom has the patience and enthusiasm to want to work with myself and others to build such an interface.</p>
+            <p>This is not for the average gym attendee at first.</p>
+            <p>I view this more as an exercise to demonstrate and learn the skills required to build such a project. I selected this as it would require a fairly high level of complexity, with and containing a logical continuity that would facilitate an ever growing exercise orientated application. In short, something challenging.</p>
+            <p>I am also concerned about potential problems, in particular, this could lead to litigation if somebody claims that this future product caused an injury. I am not sure of all the complexities here. What my obligations would be and duty of care to a user would be. This is potentially a reason to avoid proceeding into the market place with such a product.</p>
+            <p>Note : I would prefer to build a game that is pretty much the same as every other game out there. I would love to be a game developer. I see this project as a way to learn and develop something complicated to meet that end, which ever that happens to be.</p>
+          </div>
+
+       </section>
+
+  <footer id="bottom">
+
+    <nav class="navigationBar">
+      <a href="index.html">Main</a> |
+      <a href="#ProjectIdea">Project Idea</a> |
+      <a href="#Motivation">Motivation</a> |
+      <a href="#DetailedDescription">Detailed Description</a> |
+      <a href="#ToolsTechnologies">Tools and Technologies</a> |
+      <a href="#Outcome">Outcome</a> |
+      <a href="#top">Top</a>
+    </nav>
+
+    </footer>
+
+    <hr color="black">
+
+    <section>
+      <h4 class="headings">References and Citations</h4>
+
+        <div>
+          <p>[1]"The dark side of pecs: Why training only your 'mirror muscles' is a bad idea"</p>
+          <p>    Coach.nine.com.au, 2021. [Online]</P>
+          <p>    Available: https://coach.nine.com.au/fitness/the-dark-side-of-pecs/963da893-d085-4ba6-a3d5-603be20c3e6d</p>
+          <p>    [Accessed: 19- Mar- 2021].</p>
+        </div>
+
+    </section>
+
+  </body>
+
+</html>
