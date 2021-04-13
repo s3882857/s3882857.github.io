@@ -63,7 +63,7 @@ footer {
   margin-right: auto;
 }
 .personalInfoTable td, .personalInfoTable th {
-  background-color: #00ccff ;
+  background-color: MidnightBlue; /*#00ccff ;*/
   padding:24px;
   border: 1px solid black;
 
